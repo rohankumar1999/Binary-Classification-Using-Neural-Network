@@ -112,10 +112,7 @@ class NeuralNets:
 			elif pred==0 and y[j]==0:
 				tn+=1
 				
-			# 	print('yes',output,y[j])
-			# else:
-			# 	print('no',output,y[j])
-		# print('accuracy: ',self.c/self.total,self.c,self.total)
+			
 		precision=(tp/(tp+fn))
 		recall=(tp/(tp+fp))
 		print('precision: ',precision,'recall: ',recall)
